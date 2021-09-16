@@ -1,0 +1,72 @@
+	<!--Onpen Hyper Text Markup Language tag-->
+	<html>
+		<!--The Open the Heading tag-->
+	<head>
+		<!--Then open the title tag to create a title-->
+		<title>
+			Guest List
+		</title>
+		<!--Connect Cascading Style Sheets -->
+		<link rel="stylesheet" href="style.css">
+		<!--Close the heading tag-->
+	</head>
+	<!--Open the body tag-->
+	<body>
+		<!--Connect JavaScript-->
+		<script src="main.js"></script>
+	<!--Open h1 tag-->
+		<h1>Guest List</h1>
+		<!--Create a text-input-->
+		<input type="text" placeholder="Enter Name" id="name_of_guest">
+		<!--Create a button to get that text when click on the paragraph-->
+		<button onclick="submit()" id="submit_button">Submit</button>
+ 		<!--Open hr tag to create a line-->
+		<hr>
+		<!--Open p tag to show th written text on the text input-->
+		<p id="show_written_text"></p>
+		<!--Open another hr tag-->
+		<hr>
+		<!--Write another heading 2-->
+		<h2>Guest List</h1>
+			<!--Write a div tag to align the text verticaly-->
+			<div>
+				<!--Open p tag-->
+				<p id="display_name_in_vertical_alignment"></p>
+				<!--Close div tag-->
+			</div>
+			<button onclick="show_hidden_text()" id="show_text">Show</button>
+			<p id="visible_to_true"></p>
+			<!--Another hr tag to create a line-->
+			<hr>
+			<!--button for getting the names in a sorted list-->
+			<button onclick="sorted_list()" id="sort_list">Sorted List</button>
+			<!--Write another hr to create another line-->
+			<hr>
+			<!--Search Guest Section-->
+
+			<!--Write a h3 tag to write a text as a font like h3-->
+			<h3>Search Guest</h3>
+			<!--Create a text input so that they can type the name they are searching for-->
+			<input type="text" placeholder="Search Name" id="search_the_text">
+			<!--Create a button so when they click the button, they get the result-->
+			<button onclick="search_text()" id="search_text_now">Search Guest</button>
+			<p id="name_found"></p>
+			<!--Create hr to seperate this section-->
+			<hr>
+			<!--Write a title for the user to know that it is for this-->
+			<h1>About Website</h1>
+			<p>This website can be used for:Birthday Party, some kind of festival,You want to call someone for fun and so on..
+				So In this website I hope it is useful to you and please share this app with others!
+				Thanks!,
+				Sincerely,
+				Shruti
+				P.S. This website is called "Guest List"
+			</p>
+			<!--Open a hr tag-->
+			<hr>	
+<!--Display a  thanks image to make the page more attractive -->
+			<img src="Thanks.jpg" alt="Thank You!" class="img-reponsive" id="thanks">
+		<!--Close Body-->
+	</body>
+	<!--Close HTML-->
+</html>

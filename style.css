@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+}
+#name_of_guest{
+    border-radius: 30px;
+}
+#submit_button{
+    border-radius: 30px;
+}
+
+#show_text{
+    border-radius: 30px;
+}
+#sort_list{
+    border-radius: 30px;
+}
+#search_the_text{
+    border-radius: 30px;
+}
+#search_text_now{
+    border-radius: 30px;
+}
+#thanks{
+    height: 300px;
+    width: 300px;
+    border-radius: 90%;
+}
+
+body{
+    text-align: center;
+}
